@@ -13,7 +13,7 @@ jobs:
 
       - uses: actions/setup-java@v3
         with:
-          distribution: 'termuin'
+          distribution: 'termurin'
           java-version: '17'
 
       - run: chmod +x gradlew
